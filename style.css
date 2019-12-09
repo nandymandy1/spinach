@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+:root {
+    --taperd-degree: 80%;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+li.sidenav-link:hover {
+    background: #ffc107;
+    border-bottom: 3px solid #ffe082;
+}
+
+.carousel {
+    z-index: 10;
+    position: relative;
+    margin-bottom: -10vw;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 calc(var(--taperd-degree) + 7%));
+}
+
+.card-header {
+    font-size: 3em;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.my-hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #fafafa;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.home-card {
+    padding: 20px;
+    padding-top: 50px;
+    background: #f2d590;
+    clip-path: polygon(0 0, 100% calc(100% - var(--taperd-degree)), 100% 100%, 0 100%);
+}
+
+.card-hr {
+    color: #ccc;
+}
+
+.about-text {
+    font-size: 1.2em;
+    margin-bottom: 3rem;
+}
+
+.card-text-2 {
+    font-size: 1.75em;
+}
+
+.image-text-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container-card {
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    background: #ababab;
+}
+
+.container-text-1 {
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.services-image {
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.cdp-heading {
+    margin-top: 4rem;
+    color: #E67E22;
+}
+
+.img-corporate {
+    margin-left: 1.5rem;
+    height: 150px;
+}
+
+.card-effective {
+    height: 10rem;
+    background: #E67E22;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 calc(var(--taperd-degree) + 4%));
+}
+
+.card-body-effective {
+    padding: 2rem 2rem;
+}
+
+.effective-text {
+    margin-left: 10rem;
+    border: 2px solid;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-card {
+        margin-top: 0rem;
+    }
+
+    .card-effective {
+        height: 18rem;
+        background: #E67E22;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 calc(var(--taperd-degree) + 4%));
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home-card {
+        margin-top: 4rem;
+    }
+
+    .card-effective {
+        height: 12rem;
+        background: #E67E22;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 calc(var(--taperd-degree) + 4%));
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home-card {
+        margin-top: 5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .home-card {
+        margin-top: 7rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .home-card {
+        margin-top: 9rem;
+    }
+}
