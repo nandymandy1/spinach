@@ -19,6 +19,13 @@ header {
     overflow: hidden;
 }
 
+
+li.sidenav-link:hover {
+    background: #ffc107;
+    border-bottom: 3px solid #ffe082;
+}
+
+
 .header__bg {
     position: absolute;
     top: 0;
