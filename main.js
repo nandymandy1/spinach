@@ -16,3 +16,6 @@ setInterval(() => {
 // Scrollspy
 const ss = document.querySelectorAll(".scrollspy");
 M.ScrollSpy.init(ss, {});
+
+let acc = document.querySelectorAll(".collapsible");
+let accInstances = M.Collapsible.init(acc, {});
