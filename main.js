@@ -5,7 +5,7 @@ const carousel = document.querySelector(".carousel");
 let carouselInstance = M.Carousel.init(carousel, {
   duration: 200,
   fullWidth: true,
-  indicators: true,
+  indicators: false,
   noWrap: false
 });
 
