@@ -203,6 +203,7 @@ header h1 {
     height: 150px;
 }
 
+
 .glance-section .question {
     font-style: none;
     font-weight: 1000;
@@ -213,6 +214,10 @@ header h1 {
 
 .glance-section p {
     font-size: 1.3em;
+}
+
+.glance-section .div-7 {
+    padding-bottom: 5rem;
 }
 
 @media only screen and (max-width: 600px) {
