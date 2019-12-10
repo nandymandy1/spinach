@@ -219,9 +219,18 @@ header h1 {
     padding-bottom: 5rem;
 }
 
+ul.collapsible {
+    box-shadow: none;
+}
+
+ul {
+    box-shadow: none;
+}
+
 .collapsible-header {
-    background: #E67E22;
+    background: rgba(245, 176, 65, 0.9);
     color: #f0f0f0;
+    border-radius: 3px;
 }
 
 @media only screen and (max-width: 600px) {
